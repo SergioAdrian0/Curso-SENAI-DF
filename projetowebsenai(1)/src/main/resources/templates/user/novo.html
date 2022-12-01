@@ -1,0 +1,47 @@
+<div th:replace="shared/header" xmlns:th="http://www.w3.org/1999/xhtml"></div>
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">Usuários</h1>
+                    <p class="mb-4">Este é o formulário de cadastro</p>
+
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3 d-flex justify-content-between">
+                            <h4 class="m-0 font-weight-bold text-primary">Cadastro de Usuário</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="container">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="nome">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Endereço</label>
+                                        <input type="text" class="form-control" id="inputAddress" placeholder="Endereço Completo">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress2" class="form-label">Fale sobre você</label>
+                                        <textarea class="form-control" id="inputAddress2" placeholder="Conte-nos sobre você"></textarea>
+                                    </div>
+                                    <div class="col-12 mt-3">
+                                        <button type="submit" class="btn btn-primary">Entrar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+                </div>
+                <!-- End of Main Content -->
+
+<div th:replace="shared/footer" xmlns:th="http://www.w3.org/1999/xhtml"></div>
